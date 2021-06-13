@@ -1,0 +1,47 @@
+.section3 {
+   padding: 3rem 0rem;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   background-color: #fbfefe;
+   color: #374b5c;
+}
+
+.section3-heading {
+   padding: 1.5rem 0;
+   font-weight: normal;
+}
+
+.section3-desc {
+   width: 40%;
+}
+
+.section3-icons-box {
+   padding: 3rem 9rem;
+}
+
+.section3-icon {
+   margin: 0 2rem;
+}
+
+.section3-points {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 150px;
+   margin-top: 3rem;
+}
+
+.section3-point {
+   width: 0.5rem;
+   height: 0.5rem;
+   border-radius: 50%;
+   background-color: #374b5c;
+}
+
+.sect3-pt-blue {
+   background-color: #00dbd0;
+}

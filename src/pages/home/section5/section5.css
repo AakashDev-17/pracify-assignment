@@ -1,0 +1,26 @@
+.section5 {
+   padding: 2rem 0rem 3rem 0rem;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   color: #374b5c;
+}
+
+.section5-heading {
+   padding: 1.5rem 0;
+   font-weight: normal;
+}
+
+.section5-desc {
+   width: 40%;
+   line-height: 1.5rem;
+}
+
+.section5-blog-box {
+   display: flex;
+   align-items: center;
+   padding: 3rem 0rem;
+}

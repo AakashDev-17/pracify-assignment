@@ -1,0 +1,121 @@
+.footer {
+   width: 100%;
+   height: max-content;
+   padding: 10rem 9rem 3rem 9rem;
+   background-image: url("../../assets/Footer.png");
+   background-position: bottom;
+   background-size: 100% 90%;
+   background-repeat: no-repeat;
+   display: flex;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+}
+
+.footer li, .footer .social img {
+   cursor: pointer;
+}
+
+.footer li:hover {
+   color: rgba(255, 255, 255, 0.719);
+}
+
+.footer-1 {
+   flex: 2;
+   display: flex;
+   flex-direction: column;
+}
+
+.footer-1 > img {
+   width: 200px;
+   cursor: pointer;
+}
+.footer-1 > p {
+   width: 75%;
+   margin: 30px 0;
+   font-weight: lighter;
+   line-height: 1.7rem;
+}
+.footer-1 > h4 {
+   padding-top: 1rem;
+   width: max-content;
+   position: relative;
+}
+.footer-1 > h4::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: block;
+   width: 50%;
+   height: 5px;
+   border-radius: 10px;
+   background-color: #00dbd0;
+}
+
+.footer-2 {
+   flex: 1;
+}
+.footer-2 > h3{
+   padding-bottom: 1rem;
+   width: max-content;
+   position: relative;
+   margin-bottom: 2rem;
+}
+.footer-2 > h3::before {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   display: block;
+   width: 60%;
+   height: 4px;
+   border-radius: 10px;
+   background-color: #00dbd0;
+}
+.footer-2 > ul {
+   list-style: none;
+   font-size: 0.9rem;
+   font-weight: lighter;
+}
+.footer-2 > ul > li {
+   margin-top: 1rem;
+}
+
+
+.footer-3 {
+   flex: 1;
+   padding-top: 3rem;
+}
+.footer-3 > ul {
+   list-style: none;
+   font-size: 0.9rem;
+   font-weight: lighter;
+}
+.footer-3 > ul > li {
+   margin-top: 1rem;
+}
+
+
+.footer-4 {
+   flex: 1;
+}
+.footer-4 > h3{
+   padding-bottom: 1rem;
+   width: max-content;
+   position: relative;
+   margin-bottom: 2rem;
+}
+.footer-4 > h3::before {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   display: block;
+   width: 60%;
+   height: 4px;
+   border-radius: 10px;
+   background-color: #00dbd0;
+}
+.footer-4 img {
+   margin-right: 15px;
+}

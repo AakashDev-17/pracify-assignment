@@ -1,0 +1,122 @@
+.section4 {
+   padding: 5rem 9rem;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   color: #374b5c;
+   overflow: hidden;
+}
+
+.section4 > img:nth-child(1) {
+   position:absolute;
+   height: 130vh;
+   top: 130rem;
+   left: -35%;
+}
+
+.section4 > img:nth-child(2) {
+   margin: 2rem 0;
+}
+
+.section4 > img:nth-child(3) {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin: 1rem 0;
+}
+
+.section4 > h2 {
+   font-weight: 500;
+   margin: 1rem 0;
+   font-size: 2rem;
+}
+
+.section4-star-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.section4-star {
+   width: 2rem;
+   height: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   background-color: #00dbd0;
+   margin: 0 5px;
+}
+
+.section4-star .star-inner {
+   width: 1rem;
+   height: 1rem;
+   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   background-color: white;
+}
+
+.section4-desc {
+   margin-top: 2rem;
+   width: 45%;
+   line-height: 3rem;
+}
+
+.section4-points {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 120px;
+   margin: 1rem 0 3rem 0;
+}
+
+.section4-point {
+   width: 0.8rem;
+   height: 0.8rem;
+   border-radius: 50%;
+   background-color: white;
+   border: 2px solid #00dbd0;
+}
+
+.sect4-pt-blue {
+   background-color: #00dbd0;
+}
+
+.section4 > h1 {
+   margin-top: 8rem;
+}
+
+.section4-desc2 {
+   margin-top: 2rem;
+   width: 50%;
+   line-height: 1.8rem;
+}
+
+.section4-bottom {
+   margin-top: 3.5rem;
+   width: 35%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.section4-bottom > button {
+   padding: 1.2rem 2.5rem;
+   border: none;
+   border-radius: 20px;
+   color: white;
+   background-color: #00dbd0;
+   font-size: 0.8rem;
+   font-family: inherit;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.2s ease;
+}
+
+.section4-bottom > button:hover {
+   color: white;
+   background-color: #00b6ad;
+}

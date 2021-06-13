@@ -1,0 +1,27 @@
+.section2 {
+   padding: 5rem 0rem 3rem 0rem;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   color: #374b5c;
+}
+
+.section2-heading {
+   padding: 1.5rem 0;
+   font-weight: normal;
+}
+
+.section2-desc {
+   width: 40%;
+}
+
+.section2-cards-box {
+   padding: 3rem 9rem;
+}
+
+.section2-card {
+   margin: 0 2rem;
+}

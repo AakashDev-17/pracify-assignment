@@ -1,0 +1,93 @@
+.section1 {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   background-image: linear-gradient(to bottom, #f1fefe, rgba(241, 254, 254, 0));
+}
+
+.section1-content {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 6vw;
+   /* background-color: lawngreen; */
+}
+
+.section1-left {
+   color: #374b5c;
+   font-family: 'Roboto', sans-serif;
+   /* background-color: red; */
+}
+
+.section1-left-item {
+   margin-bottom: 0.5rem;
+}
+
+.section1-left > h2 {
+   font-weight: 400;
+   font-size: 2rem;
+}
+
+.section1-left > h1 {
+   font-size: 40px;
+   font-weight: 600;
+   font-size: 3.8rem;
+}
+
+.section1-left > p {
+   width: 55%;
+   padding: 1.5rem 0rem;
+   letter-spacing: 0.2px;
+}
+
+.section1-left > button {
+   padding: 0.7rem 2.5rem;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   background-color: #00dbd0;
+   font-family: inherit;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.2s ease;
+}
+
+.section1-left > button:hover {
+   color: white;
+   background-color: #00b6ad;
+}
+
+.section1-right {
+   width: 50%;
+   height: 50vh;
+   position: relative;
+   /* background-color: red; */
+}
+
+.section1-flower {
+   position: absolute;
+   top: 5rem;
+   left: -3rem;
+   z-index: 10;
+}
+
+.section1-icon-box {
+   position: absolute;
+   top: 4rem;
+   left: 180px;
+   width: 400px;
+   height: 400px;
+   display: flex;
+   background-color: white;
+   padding: 1rem;
+   z-index: 5;
+}
+
+.section1-icon-inside-box {
+   flex: 1;
+   border: 3px solid #00dbd0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
