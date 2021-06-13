@@ -40,10 +40,28 @@
    font-family: 'Roboto', sans-serif;
    color: #374b5c;
    cursor: pointer;
+   position: relative;
+   border-bottom: 3px solid transparent;
 }
 
 .navbar-menu-active {
    border-bottom: 3px solid #00dbd0;
+}
+
+.navbar-menu-item::before {
+   content: '';
+   display: block;
+   position: absolute;
+   bottom: -5px;
+   left: 0;
+   width: 0%;
+   height: 3px;
+   background-color: #00dbd0;
+   border-radius: 20px;
+   transition: all 0.2s linear;
+}
+.navbar-menu-item:hover::before {
+   width: 100%;
 }
 
 .nav-menu-box {

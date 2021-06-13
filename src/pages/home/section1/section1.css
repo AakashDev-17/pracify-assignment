@@ -1,4 +1,5 @@
 .section1 {
+   width: 100vw;
    height: 100vh;
    display: flex;
    align-items: center;
@@ -11,13 +12,11 @@
    justify-content: space-between;
    align-items: center;
    padding: 0 6vw;
-   /* background-color: lawngreen; */
 }
 
 .section1-left {
    color: #374b5c;
    font-family: 'Roboto', sans-serif;
-   /* background-color: red; */
 }
 
 .section1-left-item {
@@ -62,7 +61,6 @@
    width: 50%;
    height: 50vh;
    position: relative;
-   /* background-color: red; */
 }
 
 .section1-flower {

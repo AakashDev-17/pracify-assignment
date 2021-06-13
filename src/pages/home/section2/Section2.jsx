@@ -6,7 +6,7 @@ import "./section2.css";
 
 const Section2 = () => {
    return (
-      <div className="section2">
+      <div className="section2" id="Products">
          <img className="section2-leaf" src={leaf} alt="leaf" />
          <h1 className="section2-heading">Welcome to Nature</h1>
          <p className="section2-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

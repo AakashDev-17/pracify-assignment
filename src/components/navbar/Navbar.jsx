@@ -11,9 +11,9 @@ const Navbar = () => {
          </div>
          <div className="navbar-right">
             <ul className="navbar-menu">
-               <li className="navbar-menu-active navbar-menu-item">Home</li>
-               <li className="navbar-menu-item">Products</li>
-               <li className="navbar-menu-item">Blog</li>
+               <li className="navbar-menu-item navbar-menu-active">Home</li>
+               <li className="navbar-menu-item"><a href="#Products">Products</a></li>
+               <li className="navbar-menu-item"><a href="#Blog">Blog</a></li>
                <li className="navbar-menu-item">About Us</li>
                <li className="navbar-menu-item nav-menu-box">Contact</li>
             </ul>

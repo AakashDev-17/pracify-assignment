@@ -8,7 +8,7 @@ import "./section5.css";
 
 const Section5 = () => {
   return (
-    <div className="section5">
+    <div className="section5" id="Blog">
       <img className="section5-leaf" src={leaf} alt="leaf" />
       <h1 className="section5-heading">Read Our Blog</h1>
       <p className="section5-desc">
